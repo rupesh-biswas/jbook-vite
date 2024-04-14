@@ -17,3 +17,9 @@ Code for this website is present here: [jbook-vite](https://github.com/rupesh-bi
 And code for the npm package is present here: [jbook-rupesh](https://github.com/rupesh-biswas/practice/tree/main/React-and-Typescript/jbook-using-vite)
 
 I learned this project though this udemy course: [React and Typescript: Build a Portfolio Project](https://www.udemy.com/course/react-and-typescript-build-a-portfolio-project/)
+
+Demo site links:
+
+- [Netlify deployment](https://javascript-book.netlify.app/)
+
+- [Vercel deployment](https://javascript-notebook-qnb8fe838-rupesh-biswas-projects.vercel.app/)
