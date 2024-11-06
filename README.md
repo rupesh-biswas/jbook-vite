@@ -22,4 +22,4 @@ Demo site links:
 
 - [Netlify deployment](https://javascript-book.netlify.app/)
 
-- [Vercel deployment](https://javascript-notebook-qnb8fe838-rupesh-biswas-projects.vercel.app/)
+- [Vercel deployment](https://js-notebook.rupeshbiswas.com/)
