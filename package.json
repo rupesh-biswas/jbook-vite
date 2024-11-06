@@ -54,7 +54,8 @@
     "redux-thunk": "2.3.0",
     "rollup-plugin-polyfill-node": "^0.12.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-radar": "^0.9.6"
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.0.10"

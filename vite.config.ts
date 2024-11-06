@@ -3,10 +3,19 @@ import react from "@vitejs/plugin-react-swc";
 import { NodeGlobalsPolyfillPlugin } from "@esbuild-plugins/node-globals-polyfill";
 import { NodeModulesPolyfillPlugin } from "@esbuild-plugins/node-modules-polyfill";
 import rollupNodePolyFill from "rollup-plugin-polyfill-node";
+import { VitePluginRadar } from "vite-plugin-radar";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    VitePluginRadar({
+      // Google Analytics tag injection
+      analytics: {
+        id: "G-NLLYYXQV55",
+      },
+    }),
+  ],
   server: {
     port: 5174,
     strictPort: true,
